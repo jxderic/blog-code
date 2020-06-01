@@ -1,0 +1,22 @@
+{
+  "name": "decorator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src -d lib",
+    "start:dev": "tsc-watch --onSuccess \"node dist/decorator-prototype.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "tsc-watch": "^4.2.8",
+    "typescript": "^3.9.3"
+  }
+}
